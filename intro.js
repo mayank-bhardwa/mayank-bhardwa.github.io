@@ -1,0 +1,1 @@
+alert("Website coming soon");
