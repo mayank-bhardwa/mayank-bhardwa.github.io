@@ -1,19 +1,25 @@
+body {
+    background-image: url("images/coding.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: beige;
+    color: white;
+}
 /* navigation bar */
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 38;
-    background-color: honeydew;
 }
 
 .left-nav-wrapper > .brand {
-    margin-left: 20px;
-    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    color: rgb(243, 159, 3);
     text-transform: capitalize;
+    font-size: 20px;
 }
 
 .left-nav-wrapper > .brand :hover {
-    color: royalblue;
+    color: yellowgreen;
     font-size: larger;
 }
 
@@ -22,7 +28,7 @@
 }
 
 .right-nav-wrapper > .nav-link-wrapper {
-    margin-left: 20px;
+    margin-right: 20px;
     text-transform: capitalize;
 }
 
