@@ -1,10 +1,39 @@
-html{
-    background-color: bisque;
+/* navigation bar */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38;
+    background-color: honeydew;
 }
-title{
-    font: outline;
+
+.left-nav-wrapper > .brand {
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
 }
-main{
+
+.left-nav-wrapper > .brand :hover {
+    color: royalblue;
     font-size: larger;
-    color:royalblue;
+}
+
+.right-nav-wrapper {
+    display: flex;
+}
+
+.right-nav-wrapper > .nav-link-wrapper {
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.right-nav-wrapper > .nav-link-wrapper a {
+    color: royalblue;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.right-nav-wrapper > .nav-link-wrapper a:hover {
+    color: red;
+    border-bottom: 1px solid black;
+    font-size: larger;
 }
