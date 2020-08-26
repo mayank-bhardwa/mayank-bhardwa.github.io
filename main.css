@@ -10,6 +10,10 @@ body {
     justify-content: space-between;
 }
 
+.left-nav-wrapper {
+    display: flex;
+}
+
 .left-nav-wrapper > .brand {
     margin-left: 10px;
     color: rgb(243, 159, 3);
@@ -17,8 +21,13 @@ body {
     font-size: 20px;
 }
 
-.left-nav-wrapper > .brand :hover {
-    color: yellowgreen;
+.left-nav-wrapper > .tag-line {
+    margin-top: 3px;
+    margin-left: 13px;
+}
+
+.left-nav-wrapper :hover {
+    color: springgreen;
     font-size: larger;
 }
 
@@ -32,13 +41,20 @@ body {
 }
 
 .right-nav-wrapper > .nav-link-wrapper a {
-    color: royalblue;
+    color: aqua;
     text-decoration: none;
     transition: color 0.5s;
 }
 
 .right-nav-wrapper > .nav-link-wrapper a:hover {
-    color: red;
-    border-bottom: 1px solid black;
+    color: springgreen;
+    border-bottom: 1px solid white;
     font-size: larger;
+}
+
+.container > .content {
+    margin-left: 30px;
+    margin-top: 100px;
+    font-style: italic;
+    font-size: large;
 }
