@@ -4,53 +4,6 @@ body {
     background-color: burlywood;
     color: royalblue;
 }
-/* navigation bar */
-.nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-
-.left-nav-wrapper {
-    display: flex;
-}
-
-.left-nav-wrapper > .brand {
-    margin-left: 10px;
-    color: crimson;
-    text-transform: capitalize;
-    font-size: 20px;
-}
-
-.left-nav-wrapper > .tag-line {
-    margin-top: 3px;
-    margin-left: 13px;
-}
-
-.left-nav-wrapper :hover {
-    color: springgreen;
-    /* font-size: larger; */
-}
-
-.right-nav-wrapper {
-    display: flex;
-}
-
-.right-nav-wrapper > .nav-link-wrapper {
-    margin-right: 20px;
-    text-transform: capitalize;
-}
-
-.right-nav-wrapper > .nav-link-wrapper a {
-    color: aqua;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-
-.right-nav-wrapper > .nav-link-wrapper a:hover {
-    color: springgreen;
-    border-bottom: 1px solid white;
-    font-size: larger;
-}
 
 .container > .content {
     margin-left: 30px;
