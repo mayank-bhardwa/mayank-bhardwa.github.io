@@ -8,7 +8,6 @@ body {
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    background-color: gold;
 }
 
 .left-nav-wrapper {
