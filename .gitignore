@@ -1,2 +1,3 @@
 .vscode
-.gitweb.code-workspace
+.gitweb
+.gitignore
