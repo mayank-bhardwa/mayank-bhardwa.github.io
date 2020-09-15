@@ -1,8 +1,8 @@
 body {
-    background-image: url("images/coding.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    background-color: burlywood;
+    color: royalblue;
 }
 /* navigation bar */
 .nav-wrapper {
@@ -16,7 +16,7 @@ body {
 
 .left-nav-wrapper > .brand {
     margin-left: 10px;
-    color: rgb(243, 159, 3);
+    color: crimson;
     text-transform: capitalize;
     font-size: 20px;
 }
@@ -57,4 +57,16 @@ body {
     margin-top: 100px;
     font-style: italic;
     font-size: large;
+}
+
+.container > .table-wrapper {
+    font-family: cursive;
+}
+
+.container > .table-wrapper > table {
+    width: auto;
+}
+
+.container > .table-wrapper > table > .table-columns {
+    color: black;
 }
