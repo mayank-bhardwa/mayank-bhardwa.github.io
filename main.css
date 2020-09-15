@@ -8,6 +8,7 @@ body {
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
+    background-color: gold;
 }
 
 .left-nav-wrapper {
@@ -28,7 +29,7 @@ body {
 
 .left-nav-wrapper :hover {
     color: springgreen;
-    font-size: larger;
+    /* font-size: larger; */
 }
 
 .right-nav-wrapper {
