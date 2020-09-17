@@ -6,5 +6,4 @@ function dropMenu()
     } else {
       x.className = "right-nav-bar";
     }
-    console.log(x.className);
 }

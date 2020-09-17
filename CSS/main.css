@@ -15,11 +15,3 @@ body {
 .container > .table-wrapper {
     font-family: cursive;
 }
-
-.container > .table-wrapper > table {
-    width: auto;
-}
-
-.container > .table-wrapper > table > .table-columns {
-    color: black;
-}
