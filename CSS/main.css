@@ -2,38 +2,20 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: burlywood;
-    color: royalblue;
+    color : Black;
 }
 
-.container > .profile >
+.container > .profile {
+    padding : 15px;
+}
 
 .container > .profile > .myphoto {
-    padding : 20px;
-    width : 100px;    
-    height : 100%;
+    width : 200px;
+    height :100%;
 }
 
-.container > .content {
-    margin-left: 30px;
-    margin-top: 100px;
-    font-style: italic;
-    font-size: large;
-}
-
-.container > .table-wrapper {
-    font-family: cursive;
-}
-
-.container > .table-wrapper table,td,th {
-    border : 1px solid black;
-    width : auto;
-}
-
-.container > .table-wrapper table {
-    border : 1px dotted black;
-    padding : 3px;
-}
-
-.container > .table-wrapper td,th {
-    padding : 8px;
+.container > .profile > .intro {
+    float : right;
+    font-size: larger;
+    margin : 
 }
